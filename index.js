@@ -10,5 +10,6 @@ app.get('/', (req, res) => {
 
   res.send('Hello from Nodejs App');
 
-});
 
+});
+module.exports=app;
